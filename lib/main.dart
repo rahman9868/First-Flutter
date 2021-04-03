@@ -17,13 +17,10 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.purple[200],
       ),
       body: Center(
-        child: TextButton(
-          onPressed: () {},
-          child: Text('Click me'),
-          style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all(Colors.purple[300]),
-            foregroundColor: MaterialStateProperty.all(Colors.white)
-          ),
+        child: Icon(
+          Icons.airport_shuttle_rounded,
+          color: Colors.purple[300],
+          size: 50.0,
         )
       ),
       floatingActionButton: FloatingActionButton(
