@@ -17,10 +17,16 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.purple[200],
       ),
       body: Center(
-        child: Icon(
-          Icons.airport_shuttle_rounded,
-          color: Colors.purple[300],
-          size: 50.0,
+        child: ElevatedButton.icon(
+          onPressed: () {},
+          icon: Icon(
+            Icons.mail,
+          ),
+          label: Text('mail me'),
+          style: ButtonStyle(
+            foregroundColor: MaterialStateProperty.all(Colors.white),
+            backgroundColor: MaterialStateProperty.all(Colors.purple[300])
+          ),
         )
       ),
       floatingActionButton: FloatingActionButton(
