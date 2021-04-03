@@ -17,9 +17,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.purple[200],
       ),
       body: Center(
-        child: Image(
-          image: AssetImage('assets/hero.jpeg'),
-        )
+        child: Image.asset('assets/flutter.jpeg')
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('click'),
