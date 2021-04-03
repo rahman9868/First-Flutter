@@ -17,7 +17,14 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.purple[200],
       ),
       body: Center(
-        child: Image.asset('assets/flutter.jpeg')
+        child: TextButton(
+          onPressed: () {},
+          child: Text('Click me'),
+          style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.all(Colors.purple[300]),
+            foregroundColor: MaterialStateProperty.all(Colors.white)
+          ),
+        )
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('click'),
